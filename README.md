@@ -1,16 +1,11 @@
-# firstcubitbloc
+WELCOME TO FLUTTER BLOC
 
-A new Flutter project.
+HERE IS A SIMPLE LOGIC ON HOW FLUTTEER BLOC WORKS
 
-## Getting Started
+I have made it simple by not working of request logic so you can only find the logic on how cubit works with UI/Presentation/Screen works.
 
-This project is a starting point for a Flutter application.
+You can find the initial screen what is displayed when you open your app. --> The initial color.
 
-A few resources to get you started if this is your first Flutter project:
+Then there is the fetching screen what happens when you open our application. --> Loading Circular Progress Indicator shown for 1 sec.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Also you can file the new screen when the data is fetched and the screen is loaded. --> Now Color which has been generated form the random call provided by flutter. --> After calling the new color application screen state calls the new color screen which can be displayed after the circular progress bar has completed.
