@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: BlocProvider(
-        create: (context) => ColorCubit(),
+      home: BlocProvider.value(
+        value: ColorCubit(),
         child: Scaffold(body: BlocBuilder<ColorCubit, ColorState>(
           builder: (context, state) {
             if (state is ColorLoading || state is ColorInitial) {
